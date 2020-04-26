@@ -1,0 +1,114 @@
+body
+{
+    line-height:1.4em;
+    font-family:arial,sans-serif;
+    background-image:linear-gradient(to left,rgb(2, 99, 99),rgb(131, 189, 197));
+}
+/*background-color: rgba(87, 190, 204,1);*/
+
+fieldset
+{
+    width:220px;
+    height:310px;
+    padding:20px;
+    border:1px solid rgb(185, 176, 176);
+    border-radius:5px;
+    margin:130px auto;
+    text-align:left;
+    box-shadow:0px 0px 3px 3px teal;
+    background-color: rgb(131, 189, 197);
+    font-size:20px;
+}
+legend
+{
+    text-transform: uppercase;
+    padding:5px;
+    border:1px solid grey;
+    border-radius:5px;
+    background-color:  teal;
+    color:rgba(255, 255, 255, 0.829);
+}
+input
+{
+    margin-top:30px;
+    border-width:0px 0px 1px 0px;
+    border-color:rgba(128, 128, 128, 0.685);
+    padding:10px;
+    border-radius:20px;
+    font-size:18px;
+    background-color: rgb(170, 238, 223);
+}
+.sub
+{
+    border:none;
+    padding:10px;
+    border-radius:20px;
+    background-color:  teal;
+    color:rgba(255, 255, 255, 0.829);
+    width:100px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.829);
+    cursor:pointer;
+}
+.s
+{
+    float:right;
+}
+
+#first
+{
+    margin-top:-30px;
+}
+p
+{
+    color:rgba(255, 255, 255, 0.829);
+    font-size:30px;
+    text-align:center;
+    margin-top:20px;
+}
+.sub:active
+{
+    border:none;
+    border-top:1px solid rgba(255, 255, 255, 0.829);
+}
+.sub:focus,.s:active
+{
+    outline:none;
+}
+.a:focus
+{
+    outline:none;
+    background-color: teal;
+    color:rgba(255, 255, 255, 0.829);
+}
+::placeholder
+{
+    color:rgb(26, 25, 25);
+}
+li
+{
+    display:inline;
+    margin-right:10px;
+    border-radius:20px;
+    padding:10px;
+}
+li>a
+{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.829);
+    
+}
+ul
+{
+    float:right;
+    margin-top:-100px;
+}
+li:hover,li:active,li:focus
+{
+    background-color:rgb(42, 168, 168) ;
+    outline:none;
+    
+}
+li>a:focus
+{
+    outline:none;
+}
