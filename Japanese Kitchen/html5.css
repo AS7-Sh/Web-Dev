@@ -1,0 +1,125 @@
+body
+{
+    line-height:1.4em;
+    font-family:cursive;
+    font-size:100%;
+    margin:0;
+}
+
+div#page
+{
+    width:960px;
+    height:100%;
+    margin:0 auto;
+    background-color: white;
+}
+
+header
+{
+    background: rgba(197, 96, 96, 0.856) url("kitchen.png") no-repeat left 0px;
+    background-size:100px 100px;
+    overflow:hidden;
+}
+
+hgroup
+{
+    text-indent:100px;
+    line-height:0.7em;
+    margin-top:30px;
+}
+h4
+{
+    text-indent:130px;
+}
+img.small
+{
+    width:100px;
+    height:100px;
+}
+
+img.align_left
+{
+    float:left;
+}
+li
+{
+    display:inline-block;
+    margin-left:50px;
+}
+
+ul
+{
+    margin:0px -30px;
+    margin-top:30px;
+    background-color: rgba(228, 160, 34, 0.835);
+    padding:5px;
+}
+
+img.medium
+{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
+figure
+{
+    float:left;
+    margin:0;
+    margin-right:10px;
+}
+
+h3
+{
+    color:rgba(197, 96, 96, 0.96);
+}
+.first
+{
+    position: relative;
+    top:20px;
+}
+.fir
+{
+    margin-top:10px;
+}
+.second
+{
+    clear:left;
+    padding-top:20px;
+}
+section.course
+{
+    width:700px;
+    padding:0.1px;
+    position: relative;
+    float:left;
+}
+li:first-child
+{
+    color:white;
+}
+aside
+{
+    float:right;;
+    width:150px;
+}
+.aside
+{
+    border-bottom:1px solid grey;
+    padding-bottom:10px;
+}
+a
+{
+    display:block;
+    margin-top:30px;
+    color:rgba(197, 96, 96, 0.96);
+}
+footer
+{
+    clear: both;
+    background-color:rgba(197, 96, 96, 0.96);
+    padding:7px;
+    display:block;
+    border-radius:3px;
+    margin-top:10px;
+    text-align:center;
+}
