@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-us">
+
+<head>
+    <title>Sport</title>
+    <style>
+        ul {
+            margin: 10px;
+            background-color: black;
+            color: white;
+            font-size: 19px;
+            overflow: auto;
+            list-style: none;
+        }
+
+        ul.first li {
+            float: left;
+            padding: 10px;
+            margin: 0 20px;
+            width: 62px;
+            text-align: center;
+        }
+
+        li.a {
+            color: white;
+
+        }
+
+        div.a {
+            position: absolute;
+            top: 52px;
+            background-color: grey;
+            left: 200px;
+            width: 82px;
+            display: none;
+        }
+
+        div a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border-bottom: 0.5px solid rgb(199, 196, 196);
+        }
+
+        li.a:hover {
+            background-color: red;
+        }
+
+        li.a:hover div.a {
+            display: block;
+        }
+
+        p {
+            line-height: 1.5em;
+            font-size: 18px;
+        }
+
+        .before
+        {
+            width:800px;
+            height:300px;
+            background-color: #f00;
+            margin:50px;
+            position: relative;
+            overflow:hidden
+        }
+       .before::before
+       {
+           content:"";
+           height:300px;
+           z-index:999;
+           display: block;
+           margin-left:70px;
+           width:30px;
+           top:-70px;
+           position: absolute;
+           transform: rotate(45deg);
+           background-color: yellow;
+       }
+    </style>
+</head>
+
+<body>
+    <ul class="first">
+        <li>First</li>
+        <li class="a">More
+            <br>
+            <div class="a">
+                <a href="#">First</a>
+                <a href="#">Second</a>
+                <a href="#">Third</a>
+            </div>
+        </li>
+        <li>Bye</li>
+    </ul>
+    <p>
+        Default value. The element is visible
+        hidden The element is hidden (but still takes up space)
+        collapse Only for table rows (<tr>), row groups (<tbody>), columns (
+                <col>), column groups (<colgroup>). This value removes a row or column, but it does not affect the table
+                    layout. The space taken up by the row or column will be available for other content.
+                    If collapse is used on other elements, it renders as "hidden"
+                    Default value. The element is visible
+                    hidden The element is hidden (but still takes up space)
+                    collapse Only for table rows (
+                <tr>), row groups (
+            <tbody>), columns (
+                <col>), column groups (<colgroup>). This value removes a row or column, but it does not affect the table
+                    layout. The space taken up by the row or column will be available for other content.
+                    If collapse is used on other elements, it renders as "hidden"
+                    Default value. The element is visible
+                    hidden The element is hidden (but still takes up space)
+                    collapse Only for table rows (
+                <tr>), row groups (
+            <tbody>), columns (
+                <col>), column groups (<colgroup>). This value removes a row or column, but it does not affect the table
+                    layout. The space taken up by the row or column will be available for other content.
+                    If collapse is used on other elements, it renders as "hidden"s
+    </p>
+    <div class="before"></div>
+</body>
+
+</html>
